@@ -1,0 +1,80 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+* {
+    margin: 0PX;
+    padding: 0px;
+}
+header {
+    background-color: white;
+    color: black;
+}
+body {
+    color: white;
+    background: linear-gradient(blue, purple);
+    font-family: 'Times New Roman', Times, serif
+}
+nav {
+    background-color: rgb(224, 109, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    
+}
+header p{
+    font-size: small;
+}
+.nama article {
+    background-color: rgb(89, 127, 221);
+    margin: 10px;
+    padding: 10px;
+    margin-right: 950px;
+}
+.education article {
+    background-color: rgb(89, 127, 221);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 350px;
+}
+.experience article {
+    background-color: rgb(89, 127, 221);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 350px;
+}
+.hobi article {
+    background-color: rgb(89, 127, 221);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 350px;
+}
+.skills article {
+    background-color: rgb(89, 127, 221);
+    margin: 10px;
+    padding: 10px;
+    margin-left: 350px;
+}
+nav h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
